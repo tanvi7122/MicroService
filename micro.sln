@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroService", "MicroService", "{29D23C0D-752F-4F99-AA31-7895916432A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApplication", "CustomerApplication\CustomerApplication.csproj", "{43F89713-8016-4620-A56C-26A5BDC81042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApplication", "ProductApplication\ProductApplication.csproj", "{F5C7A3D7-6077-40F0-92B0-BB4906DFC8AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ocelotGateway", "ocelotGateway\ocelotGateway.csproj", "{28105451-5DBD-45A4-BFF7-D348AD1F70F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F89713-8016-4620-A56C-26A5BDC81042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F89713-8016-4620-A56C-26A5BDC81042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F89713-8016-4620-A56C-26A5BDC81042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F89713-8016-4620-A56C-26A5BDC81042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C7A3D7-6077-40F0-92B0-BB4906DFC8AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C7A3D7-6077-40F0-92B0-BB4906DFC8AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C7A3D7-6077-40F0-92B0-BB4906DFC8AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C7A3D7-6077-40F0-92B0-BB4906DFC8AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28105451-5DBD-45A4-BFF7-D348AD1F70F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28105451-5DBD-45A4-BFF7-D348AD1F70F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28105451-5DBD-45A4-BFF7-D348AD1F70F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28105451-5DBD-45A4-BFF7-D348AD1F70F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43F89713-8016-4620-A56C-26A5BDC81042} = {29D23C0D-752F-4F99-AA31-7895916432A4}
+		{F5C7A3D7-6077-40F0-92B0-BB4906DFC8AC} = {29D23C0D-752F-4F99-AA31-7895916432A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3767EB3-E433-441D-9C08-88DBDDFDD907}
+	EndGlobalSection
+EndGlobal
